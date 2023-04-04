@@ -1,0 +1,8 @@
+To create an environment variable using the following steps:
+
+Open the Start menu and search for "Environment Variables".
+Click "Edit the system environment variables".
+Click the "Environment Variables" button.
+Under "User variables" or "System variables", click the "New" button.
+Enter the name and value of the variable, and click "OK".
+Click "OK" to close the Environment Variables dialog boxes.
