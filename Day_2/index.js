@@ -26,5 +26,5 @@ app.get('/users', (req, res) => {
 });
 
 app.listen(8888, 'localhost', function () {
-        console.log("server is up & running")
+        console.log("server starting")
 })
