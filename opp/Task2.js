@@ -36,6 +36,23 @@ class Rectangle {
         }
     }
 }
+
+let rec1 = new Rectangle (5,4)
+console.log(rec1.dimensions) // Dimensions of the rectangle : Width= 5 ,Height= 4.
+console.log(rec1.perimeter()) // Perimeter = 18
+console.log(rec1.area()) // Area = 20
+try {rec1.change_Width = 10 } // width = 10 
+catch { console.log("Error")} 
+
+try {rec1.change_Width = -5 }
+catch { console.log("Error")} // Error 
+
+rec1.draw("#")
+// ##########
+// ##########
+// ##########
+// ##########
+
 //#endregion
 
 //#region Task Two
@@ -44,4 +61,5 @@ class Square extends Rectangle {
         super(W,W)
     }
 }
+
 //#endregion 
